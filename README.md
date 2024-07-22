@@ -28,26 +28,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Blog-preview-card](https://github.com/user-attachments/assets/67e66260-e27e-4270-8ce7-6515f34715ad)
+.jpg)
 
 ### Links
 
 - Solution URL: https://github.com/End-Us3r/Blog-Preview-Card
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://end-us3r.github.io/Blog-Preview-Card/
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
