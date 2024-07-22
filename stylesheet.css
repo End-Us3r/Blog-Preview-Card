@@ -1,0 +1,134 @@
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #f4d04e;
+    --card-color: hsl(0, 0%, 100%);
+    --text-color-gray-500: hsl(0, 0%, 42%);
+    --text-color-gray-950: #111;
+    --font-size: 16px;
+    --font-family: 'Figtree', sans-serif;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    background-color: var(--main-color);
+
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    width: 384px;
+    height: 100%;
+    background-color: var(--card-color);
+    border-radius: 1.5rem;
+    border: 1px solid var(--text-color-gray-950);
+    box-shadow: 8px 8px 0px 0px var(--text-color-gray-950);
+}
+
+.card-container:focus {
+    transform: translateX(8px) translateY(8px);
+    box-shadow: none;
+    outline: 2px solid lightblue;
+}
+
+.card-container:hover {
+    transform: translateX(8px) translateY(8px);
+    box-shadow: none;
+}
+
+.inner-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 12px;
+}
+
+.card-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.author-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.author-container img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    display: flex;
+    font-size: 14px;
+    font-weight: 800;
+    font-style: normal;
+    color: var(--text-color-gray-950);
+    padding: 4px 12px;
+    background-color: var(--main-color);
+    border-radius: 4px;
+    justify-content: center;
+    line-height: 150%;
+}
+
+h3 {
+    font-size: 1rem;
+    color: var(--text-color-gray-950);
+    align-content: center;
+
+}
+
+.upper-text {
+    color: var(--text-color-gray-950);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.lower-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--text-color-gray-500)
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
