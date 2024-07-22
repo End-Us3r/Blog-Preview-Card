@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/End-Us3r/Blog-Preview-Card
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ```html
